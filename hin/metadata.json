@@ -4,7 +4,7 @@
     "resource_type": "Bible",
     "title": "Gateway Literal Text (Hindi)",
     "aquifer_name": "Gateway Literal Text (Hindi)",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "collection_title": "Gateway Literal Text (Hindi)",
     "short_name": "HI_GLT",
     "license_info": {
@@ -7033,6 +7033,188 @@
       "pdf/65.content.pdf": {
         "mimeType": "application/pdf",
         "size": 179121
+      },
+      "alignments/08.alignment.json": {
+        "mimeType": "text/json",
+        "size": 367625,
+        "scope": {
+          "RUT": []
+        }
+      },
+      "alignments/15.alignment.json": {
+        "mimeType": "text/json",
+        "size": 614435,
+        "scope": {
+          "EZR": []
+        }
+      },
+      "alignments/17.alignment.json": {
+        "mimeType": "text/json",
+        "size": 927817,
+        "scope": {
+          "EST": []
+        }
+      },
+      "alignments/31.alignment.json": {
+        "mimeType": "text/json",
+        "size": 90863,
+        "scope": {
+          "OBA": []
+        }
+      },
+      "alignments/32.alignment.json": {
+        "mimeType": "text/json",
+        "size": 195449,
+        "scope": {
+          "JON": []
+        }
+      },
+      "alignments/41.alignment.json": {
+        "mimeType": "text/json",
+        "size": 2737591,
+        "scope": {
+          "MRK": []
+        }
+      },
+      "alignments/42.alignment.json": {
+        "mimeType": "text/json",
+        "size": 5005886,
+        "scope": {
+          "LUK": []
+        }
+      },
+      "alignments/43.alignment.json": {
+        "mimeType": "text/json",
+        "size": 3858926,
+        "scope": {
+          "JHN": []
+        }
+      },
+      "alignments/46.alignment.json": {
+        "mimeType": "text/json",
+        "size": 1711643,
+        "scope": {
+          "1CO": []
+        }
+      },
+      "alignments/47.alignment.json": {
+        "mimeType": "text/json",
+        "size": 1136704,
+        "scope": {
+          "2CO": []
+        }
+      },
+      "alignments/49.alignment.json": {
+        "mimeType": "text/json",
+        "size": 565791,
+        "scope": {
+          "EPH": []
+        }
+      },
+      "alignments/50.alignment.json": {
+        "mimeType": "text/json",
+        "size": 407519,
+        "scope": {
+          "PHP": []
+        }
+      },
+      "alignments/51.alignment.json": {
+        "mimeType": "text/json",
+        "size": 381666,
+        "scope": {
+          "COL": []
+        }
+      },
+      "alignments/52.alignment.json": {
+        "mimeType": "text/json",
+        "size": 375681,
+        "scope": {
+          "1TH": []
+        }
+      },
+      "alignments/53.alignment.json": {
+        "mimeType": "text/json",
+        "size": 201115,
+        "scope": {
+          "2TH": []
+        }
+      },
+      "alignments/54.alignment.json": {
+        "mimeType": "text/json",
+        "size": 417416,
+        "scope": {
+          "1TI": []
+        }
+      },
+      "alignments/55.alignment.json": {
+        "mimeType": "text/json",
+        "size": 305532,
+        "scope": {
+          "2TI": []
+        }
+      },
+      "alignments/56.alignment.json": {
+        "mimeType": "text/json",
+        "size": 173499,
+        "scope": {
+          "TIT": []
+        }
+      },
+      "alignments/57.alignment.json": {
+        "mimeType": "text/json",
+        "size": 83689,
+        "scope": {
+          "PHM": []
+        }
+      },
+      "alignments/59.alignment.json": {
+        "mimeType": "text/json",
+        "size": 444022,
+        "scope": {
+          "JAS": []
+        }
+      },
+      "alignments/60.alignment.json": {
+        "mimeType": "text/json",
+        "size": 424715,
+        "scope": {
+          "1PE": []
+        }
+      },
+      "alignments/61.alignment.json": {
+        "mimeType": "text/json",
+        "size": 283599,
+        "scope": {
+          "2PE": []
+        }
+      },
+      "alignments/62.alignment.json": {
+        "mimeType": "text/json",
+        "size": 517447,
+        "scope": {
+          "1JN": []
+        }
+      },
+      "alignments/63.alignment.json": {
+        "mimeType": "text/json",
+        "size": 60138,
+        "scope": {
+          "2JN": []
+        }
+      },
+      "alignments/64.alignment.json": {
+        "mimeType": "text/json",
+        "size": 55984,
+        "scope": {
+          "3JN": []
+        }
+      },
+      "alignments/65.alignment.json": {
+        "mimeType": "text/json",
+        "size": 118019,
+        "scope": {
+          "JUD": []
+        }
       }
     },
     "copyright": {
@@ -7050,5 +7232,876 @@
       ]
     }
   },
-  "article_metadata": {}
+  "article_metadata": {},
+  "alignment_metadata": {
+    "alignment_source": "https://github.com/Clear-Bible/alignments-hin/",
+    "alignment_ot_basis": "https://github.com/Clear-Bible/Alignments/tree/main/data/sources/WLCM.tsv",
+    "alignment_nt_basis": "https://github.com/Clear-Bible/Alignments/tree/main/data/sources/SBLGNT.tsv",
+    "licenses": [
+      {
+        "eng": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      }
+    ],
+    "target_token_differences": {
+      "08001001001": {
+        "Clear-Bible": "न्यायी",
+        "Aquifer": "अब"
+      },
+      "08001001002": {
+        "Clear-Bible": "लोगों",
+        "Aquifer": "न्यायी"
+      },
+      "08001001003": {
+        "Clear-Bible": "के",
+        "Aquifer": "लोगों"
+      },
+      "08001001004": {
+        "Clear-Bible": "शासन",
+        "Aquifer": "के"
+      },
+      "08001001005": {
+        "Clear-Bible": "के",
+        "Aquifer": "शासन"
+      },
+      "08001001006": {
+        "Clear-Bible": "दिनों",
+        "Aquifer": "के"
+      },
+      "08001001007": {
+        "Clear-Bible": "में",
+        "Aquifer": "दिनों"
+      },
+      "08001001008": {
+        "Clear-Bible": "ऐसा",
+        "Aquifer": "में"
+      },
+      "08001001009": {
+        "Clear-Bible": "हुआ",
+        "Aquifer": "ऐसा"
+      },
+      "08001001010": {
+        "Clear-Bible": "कि",
+        "Aquifer": "हुआ"
+      },
+      "08001001011": {
+        "Clear-Bible": "देश",
+        "Aquifer": "कि"
+      },
+      "08001001012": {
+        "Clear-Bible": "में",
+        "Aquifer": "देश"
+      },
+      "08001001013": {
+        "Clear-Bible": "अकाल",
+        "Aquifer": "में"
+      },
+      "08001001014": {
+        "Clear-Bible": "पड़ा",
+        "Aquifer": "अकाल"
+      },
+      "08001001016": {
+        "Clear-Bible": "और",
+        "Aquifer": "।"
+      },
+      "08001001017": {
+        "Clear-Bible": "यहूदा",
+        "Aquifer": "और"
+      },
+      "08001001018": {
+        "Clear-Bible": "के",
+        "Aquifer": "यहूदा"
+      },
+      "08001001019": {
+        "Clear-Bible": "बैतलहम",
+        "Aquifer": "के"
+      },
+      "08001001020": {
+        "Clear-Bible": "का",
+        "Aquifer": "बैतलहम"
+      },
+      "08001001021": {
+        "Clear-Bible": "एक",
+        "Aquifer": "का"
+      },
+      "08001001022": {
+        "Clear-Bible": "पुरुष",
+        "Aquifer": "एक"
+      },
+      "08001001023": {
+        "Clear-Bible": "अपनी",
+        "Aquifer": "पुरुष"
+      },
+      "08001001024": {
+        "Clear-Bible": "स्त्री",
+        "Aquifer": "अपनी"
+      },
+      "08001001025": {
+        "Clear-Bible": "और",
+        "Aquifer": "स्त्री"
+      },
+      "08001001026": {
+        "Clear-Bible": "दोनों",
+        "Aquifer": "और"
+      },
+      "08001001027": {
+        "Clear-Bible": "पुत्रों",
+        "Aquifer": "दोनों"
+      },
+      "08001001028": {
+        "Clear-Bible": "को",
+        "Aquifer": "पुत्रों"
+      },
+      "08001001029": {
+        "Clear-Bible": "संग",
+        "Aquifer": "को"
+      },
+      "08001001030": {
+        "Clear-Bible": "लेकर",
+        "Aquifer": "संग"
+      },
+      "08001001040": {
+        "Clear-Bible": "चला",
+        "Aquifer": "लिए"
+      },
+      "08001001031": {
+        "Clear-Bible": "मोआब",
+        "Aquifer": "लेकर"
+      },
+      "08001001032": {
+        "Clear-Bible": "के",
+        "Aquifer": "मोआब"
+      },
+      "08001001033": {
+        "Clear-Bible": "देश",
+        "Aquifer": "के"
+      },
+      "08001001034": {
+        "Clear-Bible": "में",
+        "Aquifer": "देश"
+      },
+      "08001001035": {
+        "Clear-Bible": "परदेशी",
+        "Aquifer": "में"
+      },
+      "08001001036": {
+        "Clear-Bible": "होकर",
+        "Aquifer": "परदेशी"
+      },
+      "08001001037": {
+        "Clear-Bible": "रहने",
+        "Aquifer": "होकर"
+      },
+      "08001001038": {
+        "Clear-Bible": "के",
+        "Aquifer": "रहने"
+      },
+      "08001001039": {
+        "Clear-Bible": "लिए",
+        "Aquifer": "के"
+      },
+      "15005009014": {
+        "Clear-Bible": "तुम्हें",
+        "Aquifer": "किसने"
+      },
+      "15005009021": {
+        "Clear-Bible": "दी",
+        "Aquifer": "आज्ञा"
+      },
+      "15005009022": {
+        "Clear-Bible": "है'",
+        "Aquifer": "दी"
+      },
+      "15005009015": {
+        "Clear-Bible": "इस",
+        "Aquifer": "तुम्हें"
+      },
+      "15005009016": {
+        "Clear-Bible": "घर",
+        "Aquifer": "इस"
+      },
+      "15005009017": {
+        "Clear-Bible": "को",
+        "Aquifer": "घर"
+      },
+      "15005009018": {
+        "Clear-Bible": "बनाने",
+        "Aquifer": "को"
+      },
+      "15005009019": {
+        "Clear-Bible": "की",
+        "Aquifer": "बनाने"
+      },
+      "15005009020": {
+        "Clear-Bible": "आज्ञा",
+        "Aquifer": "की"
+      },
+      "15005009023": {
+        "Clear-Bible": "और",
+        "Aquifer": "है"
+      },
+      "15005009025": {
+        "Clear-Bible": "ढाँचे",
+        "Aquifer": "और"
+      },
+      "15005009026": {
+        "Clear-Bible": "को",
+        "Aquifer": "इस"
+      },
+      "15005009024": {
+        "Clear-Bible": "इस",
+        "Aquifer": "'"
+      },
+      "15005009027": {
+        "Clear-Bible": "पूरा",
+        "Aquifer": "ढाँचे"
+      },
+      "15005009028": {
+        "Clear-Bible": "करने",
+        "Aquifer": "को"
+      },
+      "15005009029": {
+        "Clear-Bible": "की",
+        "Aquifer": "पूरा"
+      },
+      "15005011016": {
+        "Clear-Bible": "उसके",
+        "Aquifer": "हम"
+      },
+      "15005011017": {
+        "Clear-Bible": "सेवक",
+        "Aquifer": "उसके"
+      },
+      "15005011018": {
+        "Clear-Bible": "हैं",
+        "Aquifer": "सेवक"
+      },
+      "15005011019": {
+        "Clear-Bible": "जो",
+        "Aquifer": "हैं"
+      },
+      "15005011025": {
+        "Clear-Bible": "है",
+        "Aquifer": "परमेश्वर"
+      },
+      "15005011020": {
+        "Clear-Bible": "स्वर्ग",
+        "Aquifer": "जो"
+      },
+      "15005011021": {
+        "Clear-Bible": "और",
+        "Aquifer": "स्वर्ग"
+      },
+      "15005011022": {
+        "Clear-Bible": "पृथ्वी",
+        "Aquifer": "और"
+      },
+      "15005011023": {
+        "Clear-Bible": "का",
+        "Aquifer": "पृथ्वी"
+      },
+      "15005011024": {
+        "Clear-Bible": "परमेश्वर",
+        "Aquifer": "का"
+      },
+      "15005011027": {
+        "Clear-Bible": "और",
+        "Aquifer": ","
+      },
+      "15005011028": {
+        "Clear-Bible": "हम",
+        "Aquifer": "और"
+      },
+      "15005011031": {
+        "Clear-Bible": "बना",
+        "Aquifer": "को"
+      },
+      "15005011032": {
+        "Clear-Bible": "रहे",
+        "Aquifer": "बना"
+      },
+      "15005011033": {
+        "Clear-Bible": "हैं",
+        "Aquifer": "रहे"
+      },
+      "15005011029": {
+        "Clear-Bible": "भवन",
+        "Aquifer": "हम"
+      },
+      "15005011030": {
+        "Clear-Bible": "को",
+        "Aquifer": "भवन"
+      },
+      "15005011034": {
+        "Clear-Bible": "जिसे",
+        "Aquifer": "हैं"
+      },
+      "15005011035": {
+        "Clear-Bible": "इसके",
+        "Aquifer": "जिसे"
+      },
+      "15005011036": {
+        "Clear-Bible": "बहुत",
+        "Aquifer": "इसके"
+      },
+      "15005011037": {
+        "Clear-Bible": "वर्षों",
+        "Aquifer": "बहुत"
+      },
+      "15005011038": {
+        "Clear-Bible": "पहले",
+        "Aquifer": "वर्षों"
+      },
+      "15005011039": {
+        "Clear-Bible": "बनाया",
+        "Aquifer": "पहले"
+      },
+      "15005011040": {
+        "Clear-Bible": "था",
+        "Aquifer": "बनाया"
+      },
+      "15005011042": {
+        "Clear-Bible": "और",
+        "Aquifer": ","
+      },
+      "15005011045": {
+        "Clear-Bible": "एक",
+        "Aquifer": "के"
+      },
+      "15005011047": {
+        "Clear-Bible": "राजा",
+        "Aquifer": "महान"
+      },
+      "15005011048": {
+        "Clear-Bible": "ने",
+        "Aquifer": "राजा"
+      },
+      "15005011043": {
+        "Clear-Bible": "इस्राएल",
+        "Aquifer": "और"
+      },
+      "15005011044": {
+        "Clear-Bible": "के",
+        "Aquifer": "इस्राएल"
+      },
+      "15005011046": {
+        "Clear-Bible": "महान",
+        "Aquifer": "एक"
+      },
+      "15005011049": {
+        "Clear-Bible": "उसे",
+        "Aquifer": "ने"
+      },
+      "15005011050": {
+        "Clear-Bible": "बनाया",
+        "Aquifer": "उसे"
+      },
+      "15005011051": {
+        "Clear-Bible": "और",
+        "Aquifer": "बनाया"
+      },
+      "15005011052": {
+        "Clear-Bible": "पूरा",
+        "Aquifer": "और"
+      },
+      "15005011053": {
+        "Clear-Bible": "किया",
+        "Aquifer": "पूरा"
+      },
+      "15005011054": {
+        "Clear-Bible": "था",
+        "Aquifer": "किया"
+      },
+      "15006003025": {
+        "Clear-Bible": "बनाया",
+        "Aquifer": "घर"
+      },
+      "15006003026": {
+        "Clear-Bible": "जाए",
+        "Aquifer": "बनाया"
+      },
+      "15006003028": {
+        "Clear-Bible": "वह",
+        "Aquifer": ","
+      },
+      "15006003030": {
+        "Clear-Bible": "जहाँ",
+        "Aquifer": "स्थान"
+      },
+      "15006003029": {
+        "Clear-Bible": "स्थान",
+        "Aquifer": "वह"
+      },
+      "15006003031": {
+        "Clear-Bible": "बलिदानों",
+        "Aquifer": "जहाँ"
+      },
+      "15006003032": {
+        "Clear-Bible": "को",
+        "Aquifer": "बलिदानों"
+      },
+      "15006003033": {
+        "Clear-Bible": "दिया",
+        "Aquifer": "को"
+      },
+      "15006003034": {
+        "Clear-Bible": "जाता",
+        "Aquifer": "दिया"
+      },
+      "15006003035": {
+        "Clear-Bible": "है",
+        "Aquifer": "जाता"
+      },
+      "15006003037": {
+        "Clear-Bible": "और",
+        "Aquifer": ","
+      },
+      "15006003038": {
+        "Clear-Bible": "इसकी",
+        "Aquifer": "और"
+      },
+      "15006003039": {
+        "Clear-Bible": "नींव",
+        "Aquifer": "इसकी"
+      },
+      "15006003040": {
+        "Clear-Bible": "को",
+        "Aquifer": "नींव"
+      },
+      "15006003041": {
+        "Clear-Bible": "संभाला",
+        "Aquifer": "को"
+      },
+      "15006003042": {
+        "Clear-Bible": "जाए",
+        "Aquifer": "संभाला"
+      },
+      "15006003044": {
+        "Clear-Bible": "इसकी",
+        "Aquifer": "।"
+      },
+      "15006003045": {
+        "Clear-Bible": "ऊँचाई",
+        "Aquifer": "इसकी"
+      },
+      "15006003049": {
+        "Clear-Bible": "होगी",
+        "Aquifer": "की"
+      },
+      "15006003046": {
+        "Clear-Bible": "60",
+        "Aquifer": "ऊँचाई"
+      },
+      "15006003047": {
+        "Clear-Bible": "हाथों",
+        "Aquifer": "60"
+      },
+      "15006003048": {
+        "Clear-Bible": "की",
+        "Aquifer": "हाथों"
+      },
+      "15006003051": {
+        "Clear-Bible": "इसकी",
+        "Aquifer": "।"
+      },
+      "15006003052": {
+        "Clear-Bible": "चौड़ाई",
+        "Aquifer": "इसकी"
+      },
+      "15006003056": {
+        "Clear-Bible": "होगी",
+        "Aquifer": "की"
+      },
+      "15006003053": {
+        "Clear-Bible": "60",
+        "Aquifer": "चौड़ाई"
+      },
+      "15006003054": {
+        "Clear-Bible": "हाथों",
+        "Aquifer": "60"
+      },
+      "15006003055": {
+        "Clear-Bible": "की",
+        "Aquifer": "हाथों"
+      },
+      "17001017027": {
+        "Clear-Bible": "क्षयर्ष",
+        "Aquifer": "राजा"
+      },
+      "17001017028": {
+        "Clear-Bible": "ने",
+        "Aquifer": "क्षयर्ष"
+      },
+      "17001017029": {
+        "Clear-Bible": "कहा",
+        "Aquifer": "ने"
+      },
+      "17001017030": {
+        "Clear-Bible": "कि",
+        "Aquifer": "कहा"
+      },
+      "17001017031": {
+        "Clear-Bible": "उसके",
+        "Aquifer": "कि"
+      },
+      "17001017032": {
+        "Clear-Bible": "चेहरे",
+        "Aquifer": "उसके"
+      },
+      "17001017033": {
+        "Clear-Bible": "के",
+        "Aquifer": "चेहरे"
+      },
+      "17001017034": {
+        "Clear-Bible": "आगे",
+        "Aquifer": "के"
+      },
+      "17001017035": {
+        "Clear-Bible": "वशती",
+        "Aquifer": "आगे"
+      },
+      "17001017037": {
+        "Clear-Bible": "को",
+        "Aquifer": "रानी"
+      },
+      "17001017036": {
+        "Clear-Bible": "रानी",
+        "Aquifer": "वशती"
+      },
+      "17001017038": {
+        "Clear-Bible": "लाओ",
+        "Aquifer": "को"
+      },
+      "17001017040": {
+        "Clear-Bible": "परन्तु",
+        "Aquifer": ","
+      },
+      "17001017042": {
+        "Clear-Bible": "नहीं",
+        "Aquifer": "वह"
+      },
+      "17001017041": {
+        "Clear-Bible": "वह",
+        "Aquifer": "परन्तु"
+      },
+      "17001017043": {
+        "Clear-Bible": "आई",
+        "Aquifer": "नहीं"
+      },
+      "32001010001": {
+        "Clear-Bible": "वे",
+        "Aquifer": "तब"
+      },
+      "32001010002": {
+        "Clear-Bible": "बहुत",
+        "Aquifer": "वे"
+      },
+      "32001010003": {
+        "Clear-Bible": "डर",
+        "Aquifer": "बहुत"
+      },
+      "32001010004": {
+        "Clear-Bible": "गए",
+        "Aquifer": "डर"
+      },
+      "32001010006": {
+        "Clear-Bible": "और",
+        "Aquifer": ","
+      },
+      "32001010008": {
+        "Clear-Bible": "कहने",
+        "Aquifer": "उससे"
+      },
+      "32001010009": {
+        "Clear-Bible": "लगे",
+        "Aquifer": "कहने"
+      },
+      "32001010007": {
+        "Clear-Bible": "उससे",
+        "Aquifer": "और"
+      },
+      "32001010012": {
+        "Clear-Bible": "तूने",
+        "Aquifer": "“"
+      },
+      "32001010015": {
+        "Clear-Bible": "किया",
+        "Aquifer": "क्या"
+      },
+      "32001010016": {
+        "Clear-Bible": "है",
+        "Aquifer": "किया"
+      },
+      "32001010013": {
+        "Clear-Bible": "यह",
+        "Aquifer": "तूने"
+      },
+      "32001010014": {
+        "Clear-Bible": "क्या",
+        "Aquifer": "यह"
+      },
+      "32001010019": {
+        "Clear-Bible": "वे",
+        "Aquifer": "”"
+      },
+      "32001010020": {
+        "Clear-Bible": "जान",
+        "Aquifer": "वे"
+      },
+      "32001010021": {
+        "Clear-Bible": "गए",
+        "Aquifer": "जान"
+      },
+      "32001010022": {
+        "Clear-Bible": "थे",
+        "Aquifer": "गए"
+      },
+      "32001010023": {
+        "Clear-Bible": "कि",
+        "Aquifer": "थे"
+      },
+      "32001010024": {
+        "Clear-Bible": "वह",
+        "Aquifer": "कि"
+      },
+      "32001010025": {
+        "Clear-Bible": "यहोवा",
+        "Aquifer": "वह"
+      },
+      "32001010026": {
+        "Clear-Bible": "के",
+        "Aquifer": "यहोवा"
+      },
+      "32001010027": {
+        "Clear-Bible": "सम्मुख",
+        "Aquifer": "के"
+      },
+      "32001010028": {
+        "Clear-Bible": "से",
+        "Aquifer": "सम्मुख"
+      },
+      "32001010029": {
+        "Clear-Bible": "भाग",
+        "Aquifer": "से"
+      },
+      "32001010030": {
+        "Clear-Bible": "आया",
+        "Aquifer": "भाग"
+      },
+      "32001010031": {
+        "Clear-Bible": "है",
+        "Aquifer": "आया"
+      },
+      "32001010033": {
+        "Clear-Bible": "क्योंकि",
+        "Aquifer": ","
+      },
+      "32001010034": {
+        "Clear-Bible": "उसने",
+        "Aquifer": "क्योंकि"
+      },
+      "32001010035": {
+        "Clear-Bible": "स्वयं",
+        "Aquifer": "उसने"
+      },
+      "32001010037": {
+        "Clear-Bible": "बता",
+        "Aquifer": "उनको"
+      },
+      "32001010038": {
+        "Clear-Bible": "दिया",
+        "Aquifer": "बता"
+      },
+      "32001010039": {
+        "Clear-Bible": "था",
+        "Aquifer": "दिया"
+      },
+      "32001010036": {
+        "Clear-Bible": "उनको",
+        "Aquifer": "स्वयं"
+      },
+      "32001016015": {
+        "Clear-Bible": "चढ़ाई",
+        "Aquifer": "भेंट"
+      },
+      "32001016013": {
+        "Clear-Bible": "को",
+        "Aquifer": "यहोवा"
+      },
+      "32001016014": {
+        "Clear-Bible": "भेंट",
+        "Aquifer": "को"
+      },
+      "32001016016": {
+        "Clear-Bible": "और",
+        "Aquifer": "चढ़ाई"
+      },
+      "32001016018": {
+        "Clear-Bible": "मानीं",
+        "Aquifer": "मन्नतें"
+      },
+      "32001016017": {
+        "Clear-Bible": "मन्नतें",
+        "Aquifer": "और"
+      },
+      "32002002022": {
+        "Clear-Bible": "के",
+        "Aquifer": "अधोलोक"
+      },
+      "32002002023": {
+        "Clear-Bible": "उदर",
+        "Aquifer": "के"
+      },
+      "32002002024": {
+        "Clear-Bible": "में",
+        "Aquifer": "उदर"
+      },
+      "32002002025": {
+        "Clear-Bible": "से",
+        "Aquifer": "में"
+      },
+      "32002002026": {
+        "Clear-Bible": "मैं",
+        "Aquifer": "से"
+      },
+      "32002002027": {
+        "Clear-Bible": "चिल्ला",
+        "Aquifer": "मैं"
+      },
+      "32002002028": {
+        "Clear-Bible": "उठा",
+        "Aquifer": "चिल्ला"
+      },
+      "32002002030": {
+        "Clear-Bible": "तूने",
+        "Aquifer": ","
+      },
+      "32002002033": {
+        "Clear-Bible": "सुन",
+        "Aquifer": "आवाज"
+      },
+      "32002002034": {
+        "Clear-Bible": "ली",
+        "Aquifer": "सुन"
+      },
+      "32002002031": {
+        "Clear-Bible": "मेरी",
+        "Aquifer": "तूने"
+      },
+      "32002002032": {
+        "Clear-Bible": "आवाज",
+        "Aquifer": "मेरी"
+      },
+      "32003003001": {
+        "Clear-Bible": "योना",
+        "Aquifer": "इसलिए"
+      },
+      "32003003002": {
+        "Clear-Bible": "उठा",
+        "Aquifer": "योना"
+      },
+      "32003003003": {
+        "Clear-Bible": "और",
+        "Aquifer": "उठा"
+      },
+      "32003003011": {
+        "Clear-Bible": "गया",
+        "Aquifer": "को"
+      },
+      "32003003004": {
+        "Clear-Bible": "यहोवा",
+        "Aquifer": "और"
+      },
+      "32003003005": {
+        "Clear-Bible": "के",
+        "Aquifer": "यहोवा"
+      },
+      "32003003006": {
+        "Clear-Bible": "वचन",
+        "Aquifer": "के"
+      },
+      "32003003007": {
+        "Clear-Bible": "के",
+        "Aquifer": "वचन"
+      },
+      "32003003008": {
+        "Clear-Bible": "अनुसार",
+        "Aquifer": "के"
+      },
+      "32003003009": {
+        "Clear-Bible": "नीनवे",
+        "Aquifer": "अनुसार"
+      },
+      "32003003010": {
+        "Clear-Bible": "को",
+        "Aquifer": "नीनवे"
+      },
+      "32003003013": {
+        "Clear-Bible": "अब",
+        "Aquifer": "।"
+      },
+      "32003003014": {
+        "Clear-Bible": "नीनवे",
+        "Aquifer": "अब"
+      },
+      "32003003015": {
+        "Clear-Bible": "परमेश्वर",
+        "Aquifer": "नीनवे"
+      },
+      "32003003016": {
+        "Clear-Bible": "के",
+        "Aquifer": "परमेश्वर"
+      },
+      "32003003017": {
+        "Clear-Bible": "लिए",
+        "Aquifer": "के"
+      },
+      "32003003021": {
+        "Clear-Bible": "था",
+        "Aquifer": "नगर"
+      },
+      "32003003018": {
+        "Clear-Bible": "बहुत",
+        "Aquifer": "लिए"
+      },
+      "32003003019": {
+        "Clear-Bible": "बड़ा",
+        "Aquifer": "बहुत"
+      },
+      "32003003020": {
+        "Clear-Bible": "नगर",
+        "Aquifer": "बड़ा"
+      },
+      "32003003023": {
+        "Clear-Bible": "वह",
+        "Aquifer": ","
+      },
+      "32003003027": {
+        "Clear-Bible": "यात्रा",
+        "Aquifer": "की"
+      },
+      "32003003028": {
+        "Clear-Bible": "का",
+        "Aquifer": "यात्रा"
+      },
+      "32003003029": {
+        "Clear-Bible": "था",
+        "Aquifer": "का"
+      },
+      "32003003024": {
+        "Clear-Bible": "तीन",
+        "Aquifer": "वह"
+      },
+      "32003003025": {
+        "Clear-Bible": "दिन",
+        "Aquifer": "तीन"
+      },
+      "32003003026": {
+        "Clear-Bible": "की",
+        "Aquifer": "दिन"
+      }
+    }
+  }
 }
